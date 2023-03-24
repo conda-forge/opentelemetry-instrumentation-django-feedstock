@@ -1,11 +1,11 @@
-About opentelemetry-instrumentation-django
-==========================================
+About opentelemetry-instrumentation-django-feedstock
+====================================================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/opentelemetry-instrumentation-django-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/open-telemetry/opentelemetry-python-contrib/tree/main/instrumentation/opentelemetry-instrumentation-django
 
 Package license: Apache-2.0
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/opentelemetry-instrumentation-django-feedstock/blob/main/LICENSE.txt)
 
 Summary: OpenTelemetry Instrumentation for Django
 
