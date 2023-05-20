@@ -1,5 +1,5 @@
 {% set name = "opentelemetry-instrumentation-django" %}
-{% set version = "0.38b0" %}
+{% set version = "0.39b0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/opentelemetry_instrumentation_django-{{ version }}.tar.gz
-  sha256: 815ac63dbb8e5e5d3f523756ce5c228863670c97135f12d72cb7f38f0ac6a281
+  sha256: 24a49454a65dd4516d55db79374459d03da2b3ad3b395ac823613a649e17d8e3
 
 build:
   noarch: python
@@ -22,10 +22,10 @@ requirements:
   run:
     - python >=3.7
     - opentelemetry-api ~=1.12
-    - opentelemetry-instrumentation-wsgi ==0.38b0
-    - opentelemetry-instrumentation ==0.38b0
-    - opentelemetry-semantic-conventions ==0.38b0
-    - opentelemetry-util-http ==0.38b0
+    - opentelemetry-instrumentation-wsgi ==0.39b0
+    - opentelemetry-instrumentation ==0.39b0
+    - opentelemetry-semantic-conventions ==0.39b0
+    - opentelemetry-util-http ==0.39b0
     # - opentelemetry-test-utils ==0.37b0
     # - opentelemetry-instrumentation-django 
     # - opentelemetry-instrumentation-asgi ==0.37b0
@@ -33,6 +33,10 @@ requirements:
     # - opentelemetry-test-utils ==0.38b0
     # - opentelemetry-instrumentation-django 
     # - opentelemetry-instrumentation-asgi ==0.38b0
+    # - django >=1.10
+    # - opentelemetry-test-utils ==0.39b0
+    # - opentelemetry-instrumentation-django 
+    # - opentelemetry-instrumentation-asgi ==0.39b0
     # - django >=1.10
 
 test:
