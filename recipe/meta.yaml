@@ -26,7 +26,7 @@ requirements:
     - opentelemetry-instrumentation =={{ version }}
     - opentelemetry-semantic-conventions =={{ version }}
     - opentelemetry-util-http =={{ version }}
-    - django >= 1.10
+    - django >=1.10
 
 test:
   imports:
